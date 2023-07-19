@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
     padding: 25px 50px 15px 50px;
     box-shadow: 0px 0px 5px black;
-    
+
 }
 
 .nav {
@@ -91,10 +91,10 @@ nav li {
     margin: auto;
     display: flex;
     flex-direction: column;
-    
-    
-    
-   
+
+
+
+
 }
 
 
@@ -153,6 +153,8 @@ margin-top: 20px;
     text-align: end;
 }
 
+/* menu end */
+
 @media screen and (max-width:992px) {
     nav {
         flex-direction: column;
@@ -184,8 +186,8 @@ margin-top: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
-       
-        
+
+
     }
     .first-menu-img{
         width: 520px;
@@ -197,22 +199,28 @@ margin-top: 20px;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
-       
-        
+
+
+
+
     }
     .second-menu h1{
-        text-align: center;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .second-menu p{
-        width: 70%;
-        text-align: center;
-        margin: auto;
-        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .hmm{
-        text-align: center;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+
     }
+    /* menu end */
+
 }
 
 @media screen and (max-width:576px) {
@@ -224,7 +232,17 @@ margin-top: 20px;
       }
       .second-menu p{
         width: 90%;
-       
-    }
 
+    }
+    .second-menu h1{
+        width: 90%;
+
+
+    }
+    .hmm{
+        width: 90%;
+
+
+    }
+  /* menu end */
 }
