@@ -368,7 +368,7 @@ nav li {
 .arcade {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "bton1 bton1 bton2 bton2 bton3 bton3 bton4 bton4 bton5 bton5"
     "bton6 bton6 bton6 bton7 bton7 bton8 bton8 bton9 bton9 bton9"
     ;
@@ -396,7 +396,7 @@ nav li {
     width: 187px;
     overflow: hidden;
     border: 2px solid transparent;
-    
+
 }
 .arcade-btn p{
     font-size: 1rem;
@@ -406,6 +406,7 @@ nav li {
 border: 2px solid #FF42A5;
 color: #FF42A5;
 }
+/* arcade end */
 
 @media screen and (max-width:992px) {
     nav {
@@ -519,7 +520,7 @@ color: #FF42A5;
 
     .arcade{
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
         "bton1 bton1 bton2 bton2 bton3 bton3"
         "bton4 bton4 bton4 bton5 bton5 bton5"
         "bton6 bton6 bton6 bton6 bton6 bton6"
@@ -535,7 +536,8 @@ color: #FF42A5;
     .bton6{
         margin-bottom: 15PX;
     }
-    
+    /* arcade end */
+}
 
 
 @media screen and (max-width:576px) {
@@ -607,7 +609,7 @@ color: #FF42A5;
         padding: 15px;
     }
 
-
+/* arcade end */
 
 }
 
