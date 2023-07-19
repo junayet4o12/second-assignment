@@ -87,6 +87,7 @@ nav li {
     justify-content: space-around;
     align-items: center;
     padding: 25px 5%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .first-menu,
@@ -95,6 +96,7 @@ nav li {
     margin: auto;
     display: flex;
     flex-direction: column;
+
 
 
 
@@ -266,43 +268,48 @@ nav li {
 }
 
 /* game end */
-.install{
+.install {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.install-content p{
- width: 325px;
- text-align: end;
-}
-.install-content h1{
+.install-content p {
     width: 325px;
     text-align: end;
-   }
-   .install-content{
+}
+
+.install-content h1 {
+    width: 325px;
+    text-align: end;
+}
+
+.install-content {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   }
-   .install-img{
+}
+
+.install-img {
     width: 50%;
-   }
-   .install-img .install-img1{
+}
+
+.install-img .install-img1 {
     width: 80%;
 
-   }
-   .install-img2{
+}
+
+.install-img2 {
     position: relative;
     width: 40%;
     margin-top: -35%;
     margin-left: -15%;
-   }
+}
 
-   .install2{
+.install2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -312,21 +319,93 @@ nav li {
 }
 
 
-.install-img3{
+.install-img3 {
     position: relative;
     width: 40%;
     margin-top: -35%;
     margin-left: 50%;
 
-   }
+}
 
-   .install2 h1{
+.install2 h1 {
     text-align: start;
 }
-.install2 p{
+
+.install2 p {
     text-align: start;
 }
+
 /* install end */
+
+.bton1{
+    grid-area: bton1;
+}
+.bton2{
+    grid-area: bton2;
+}
+.bton3{
+    grid-area: bton3;
+}
+.bton4{
+    grid-area: bton4;
+}
+.bton5{
+    grid-area: bton5;
+}
+.bton6{
+    grid-area: bton6;
+}
+.bton7{
+    grid-area: bton7;
+}
+.bton8{
+    grid-area: bton8;
+}
+.bton9{
+    grid-area: bton9;
+}
+
+.arcade {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: grid;
+    grid-template-areas: 
+    "bton1 bton1 bton2 bton2 bton3 bton3 bton4 bton4 bton5 bton5"
+    "bton6 bton6 bton6 bton7 bton7 bton8 bton8 bton9 bton9 bton9"
+    ;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bton6{
+    margin: auto;
+}
+
+.arcade-btn {
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border: none;
+    width: 187px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    
+}
+.arcade-btn p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.arcade-btn:hover{
+border: 2px solid #FF42A5;
+color: #FF42A5;
+}
 
 @media screen and (max-width:992px) {
     nav {
@@ -404,38 +483,59 @@ nav li {
 
     /* menu end */
 
-    .install{
+    .install {
         flex-direction: column;
     }
 
-    .install-img{
+    .install-img {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .install-img .install-img1{
+
+    .install-img .install-img1 {
         width: 400px;
     }
-    .install-img2{
+
+    .install-img2 {
         position: relative;
         width: 188px;
         margin-top: -140px;
         margin-left: -80px;
-       }
-       .install2{
+    }
+
+    .install2 {
         flex-direction: column;
     }
-    .install-img3{
+
+    .install-img3 {
         position: relative;
         width: 188px;
         margin-top: -140px;
         margin-left: 300px;
-       }
-       /* install end */
+    }
 
+    /* install end */
 
-
-}
+    .arcade{
+        display: grid;
+        grid-template-areas: 
+        "bton1 bton1 bton2 bton2 bton3 bton3"
+        "bton4 bton4 bton4 bton5 bton5 bton5"
+        "bton6 bton6 bton6 bton6 bton6 bton6"
+        "bton7 bton7 bton8 bton8 bton9 bton9"
+        ;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .bton4, .bton1, .bton2, .bton3, .bton5, .bton6, .bton7, .bton8, .bton9{
+        margin: auto;
+    }
+    .bton6{
+        margin-bottom: 15PX;
+    }
+    
 
 
 @media screen and (max-width:576px) {
@@ -468,33 +568,44 @@ nav li {
     }
 
     /* menu end */
-    .install-img{
+    .install-img {
         width: 69%;
     }
 
-    .install-img .install-img1{
+    .install-img .install-img1 {
         width: 100%;
     }
-    .install-content h1{
-font-size: 1.40rem;
-line-height: 30px;
+
+    .install-content h1 {
+        font-size: 1.40rem;
+        line-height: 30px;
     }
-    .install-img2{
+
+    .install-img2 {
         position: relative;
         width: 45%;
         margin-top: -38%;
         margin-left: -15%;
-       }
-       .install2{
+    }
+
+    .install2 {
         padding: 0px 0px;
-       }
-       .install-img3{
+    }
+
+    .install-img3 {
         position: relative;
         width: 45%;
         margin-top: -38%;
         margin-left: 70%;
-       }
-       /* install end */
+    }
+
+    /* install end */
+
+    .arcade{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
 
 
 
@@ -521,19 +632,20 @@ line-height: 30px;
     }
 
     /* menu end */
-    .install-content{
+    .install-content {
         width: 100%;
     }
 
-    .install-content p{
+    .install-content p {
         width: 90%;
 
-       }
-       .install-content h1{
-           width: 90%;
+    }
 
-          }
+    .install-content h1 {
+        width: 90%;
 
-          /* install end */
+    }
+
+    /* install end */
 
 }
