@@ -7,10 +7,11 @@
 .all-header {
     color: #0B0223;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
 }
-.btn-primary{
+
+.btn-primary {
     margin-top: 20px;
     width: max-content;
     padding: 10px 20px;
@@ -22,7 +23,8 @@
     font-weight: 600;
     cursor: pointer;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #f80296;
 }
 
@@ -79,14 +81,16 @@ nav li {
 
 /* nav end */
 
-.menu, .menu2 {
+.menu,
+.menu2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 25px 5%;
 }
 
-.first-menu, .second-menu {
+.first-menu,
+.second-menu {
     width: 50%;
     margin: auto;
     display: flex;
@@ -98,13 +102,15 @@ nav li {
 }
 
 
-.first-menu-img, .second-menu-img {
+.first-menu-img,
+.second-menu-img {
     width: 50%;
 }
 
 .first-menu-img img {
     width: 100%;
 }
+
 .second-menu-img img {
     width: 100%;
 }
@@ -120,40 +126,207 @@ nav li {
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
 }
-.first-menu p{
+
+.first-menu p {
     color: #534C64;
-font-size: 0.9rem;
-font-weight: 500;
-text-transform: lowercase;
-margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10px;
 
 }
-.second-menu p{
+
+.second-menu p,
+.p {
     color: #534C64;
-font-size: 0.9rem;
-font-weight: 500;
-text-transform: lowercase;
-margin-bottom: 10px;
-text-align: end;
-width: 70%;
-margin-left: auto;
-margin-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+    text-align: end;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 325px;
 
 }
-.btn2{
+
+
+.btn2 {
     background-color: #4EC5F7;
 }
-.btn2:hover{
-    background-color: #02adf6 ;
+
+.btn2:hover {
+    background-color: #02adf6;
 }
-.second-menu h1{
+
+.second-menu h1 {
     text-align: end;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.hmm{
+
+.hmm {
     text-align: end;
 }
 
 /* menu end */
+
+.games h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.games p {
+    color: #534C64;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.four-games {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+
+}
+
+.game {
+    width: 270px;
+    height: 320px;
+    background-image: url("images/Rectangle-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.60);
+    border: 2px solid #F948B2;
+    border-radius: 16px;
+    display: none;
+
+
+}
+
+.layer h3 {
+    color: #f80296;
+}
+
+.game:hover .layer {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.layer button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.two {
+    background-image: url("images/Rectangle-5.png");
+}
+
+.three {
+    background-image: url("images/Rectangle-7.png");
+}
+
+.four {
+    background-image: url("images/Rectangle-6.png");
+}
+
+.four-games p {
+    color: #534C64;
+
+    font-size: 0.9rem;
+
+    font-weight: 500;
+    text-align: start;
+
+
+}
+
+/* game end */
+.install{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.install-content p{
+ width: 325px;
+ text-align: end;
+}
+.install-content h1{
+    width: 325px;
+    text-align: end;
+   }
+   .install-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .install-img{
+    width: 50%;
+   }
+   .install-img .install-img1{
+    width: 80%;
+
+   }
+   .install-img2{
+    position: relative;
+    width: 40%;
+    margin-top: -35%;
+    margin-left: -15%;
+   }
+
+   .install2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 30px;
+}
+
+
+.install-img3{
+    position: relative;
+    width: 40%;
+    margin-top: -35%;
+    margin-left: 50%;
+
+   }
+
+   .install2 h1{
+    text-align: start;
+}
+.install2 p{
+    text-align: start;
+}
+/* install end */
 
 @media screen and (max-width:992px) {
     nav {
@@ -173,15 +346,17 @@ margin-top: 20px;
 
     /* nav end */
 
-    .menu{
+    .menu {
         flex-direction: column-reverse;
         gap: 40px;
     }
-    .menu2{
+
+    .menu2 {
         flex-direction: column;
         gap: 40px;
     }
-    .first-menu{
+
+    .first-menu {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -189,13 +364,16 @@ margin-top: 20px;
 
 
     }
-    .first-menu-img{
+
+    .first-menu-img {
         width: 520px;
-      }
-      .second-menu-img{
+    }
+
+    .second-menu-img {
         width: 520px;
-      }
-      .second-menu{
+    }
+
+    .second-menu {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -204,45 +382,158 @@ margin-top: 20px;
 
 
     }
-    .second-menu h1{
-        width: 70%;
+
+    .second-menu h1 {
+        width: 325px;
         margin-right: auto;
         margin-left: auto;
     }
-    .second-menu p{
+
+    .second-menu p,
+    .p {
         margin-right: auto;
         margin-left: auto;
     }
-    .hmm{
-        width: 70%;
+
+    .hmm {
+        width: 325px;
         margin-right: auto;
         margin-left: auto;
 
     }
+
     /* menu end */
+
+    .install{
+        flex-direction: column;
+    }
+
+    .install-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .install-img .install-img1{
+        width: 400px;
+    }
+    .install-img2{
+        position: relative;
+        width: 188px;
+        margin-top: -140px;
+        margin-left: -80px;
+       }
+       .install2{
+        flex-direction: column;
+    }
+    .install-img3{
+        position: relative;
+        width: 188px;
+        margin-top: -140px;
+        margin-left: 300px;
+       }
+       /* install end */
+
+
 
 }
 
+
 @media screen and (max-width:576px) {
-    .first-menu-img{
+    .first-menu-img {
         width: 100%;
-      }
-      .second-menu-img{
+    }
+
+    .second-menu-img {
         width: 100%;
-      }
-      .second-menu p{
-        width: 90%;
-
     }
-    .second-menu h1{
-        width: 90%;
+
+    .second-menu p,
+    .p {
+        width: 325px;
 
 
     }
-    .hmm{
+
+    .second-menu h1 {
+        width: 325px;
+
+
+
+    }
+
+    .hmm {
+        width: 325px;
+
+
+    }
+
+    /* menu end */
+    .install-img{
+        width: 69%;
+    }
+
+    .install-img .install-img1{
+        width: 100%;
+    }
+    .install-content h1{
+font-size: 1.40rem;
+line-height: 30px;
+    }
+    .install-img2{
+        position: relative;
+        width: 45%;
+        margin-top: -38%;
+        margin-left: -15%;
+       }
+       .install2{
+        padding: 0px 0px;
+       }
+       .install-img3{
+        position: relative;
+        width: 45%;
+        margin-top: -38%;
+        margin-left: 70%;
+       }
+       /* install end */
+
+
+
+}
+
+@media screen and (max-width:350px) {
+
+    .second-menu p,
+    .p {
+        width: 90%;
+
+    }
+
+    .second-menu h1 {
         width: 90%;
 
 
     }
-  /* menu end */
+
+    .hmm {
+        width: 90%;
+
+
+    }
+
+    /* menu end */
+    .install-content{
+        width: 100%;
+    }
+
+    .install-content p{
+        width: 90%;
+
+       }
+       .install-content h1{
+           width: 90%;
+
+          }
+
+          /* install end */
+
 }
